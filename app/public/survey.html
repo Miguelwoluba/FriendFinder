@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Page</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+    
+            <h2 class="text-center">Survey Questions</h2>
+            <h3 class="text-center">About You!</h3>
+            <br>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- Reservation Page -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Table Reservation</h4>
+                    </div>
+                    <div class="panel-body">
+
+                        <form role="form">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="link-img">Link to Image</label>
+                                <input type="text" class="form-control" id="linkImg">
+                            </div>
+
+                        <div class="form-group">
+                            <label for="q1">Bagels are the best breakfast bread!</label>
+                            <select class="chosen-select" id="q1">
+                                <option>1(strongly disagree)</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5(strongly agree)</option>
+                            </select>
+                        </div>
+
+                            <div class="form-group">
+                                <label for="q2">Prefer dog over cats...</label>
+                                <select class="chosen-select" id="q2">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="q3">Starwars is better than StarTrek</label>
+                                <select class="chosen-select" id="q3">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q3">Coke kick pepsi in tha nose</label>
+                                <select class="chosen-select" id="q3">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q4">Lebron James is better than Jordan</label>
+                                <select class="chosen-select" id="q4">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q5">Mountains are better than the ocean</label>
+                                <select class="chosen-select" id="q5">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q6">Steve Woz over Steve Jobs</label>
+                                <select class="chosen-select" id="q6">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q7">Would definetly make myself into a Westworld Robot</label>
+                                <select class="chosen-select" id="q7">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q8">Starks over Lannisters</label>
+                                <select class="chosen-select" id="q8">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="q9">The white walkers will kill everyone</label>
+                                <select class="chosen-select" id="q9">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="q10">Battleflied is COD's boss</label>
+                                <select class="chosen-select" id="q10">
+                                    <option>1(strongly disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(strongly agree)</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/tables">API Table Link</a> |
+                    <a href="/api/waitlist">API Wait List</a> |
+                    <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        // Here we grab the form elements
+        var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#linkImg").val().trim(),
+            score: [$("#q1").val().trim(), $("#q2").val().trim(), $("#q3").val().trim(), $("#q4").val().trim(), $("#q5").val().trim(),
+                $("#q6").val().trim(), $("#q7").val().trim(), $("#q8").val().trim(), $("#q9").val().trim(), $("#q10").val().trim(),]
+            
+        };
+
+        console.log(newFriend);
+
+        // This line is the magic. It"s very similar to the standard ajax function we used.
+        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+        // depending on if a tables is available or not.
+
+        $.post("/api/friends", newFriend,
+            function (data) {
+
+                // If a table is available... tell user they are booked.
+                if (data) {
+                    alert("Yay!Friend Save yyyyyyyaaaaaaiii!");
+                }
+
+                // If a table is available... tell user they on the waiting list.
+                else {
+                    alert("Sorry not save did something wrong dummy");
+                }
+
+                // Clear the form when submitting
+                $("#name").val("");
+                $("#linkImg").val("");
+
+            });
+
+    });
+
+</script>
